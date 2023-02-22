@@ -9,7 +9,9 @@ const MainInfo = () => {
         <Planet />
 
         <div className="main-left__title">Explore Your own planet</div>
-        <div className="main-left__title">In our New metaverse</div>
+        <div className="main-left__title">
+          In <span className="main-left__title-outline">our New</span> metaverse
+        </div>
         <div className="main-left__description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
