@@ -8,7 +8,7 @@ type PlanetProps = {
 
 const Planet = ({ noText = false }: PlanetProps) => {
   return (
-    <div className="planet" style={{ top: noText ? "28%" : "-13%" }}>
+    <div className="planet" style={{ top: noText ? "28%" : "-11.5%" }}>
       <div className="circle-wrap">
         <div className="circle">
           <div className="dot" />
