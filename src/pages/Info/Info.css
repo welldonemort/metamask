@@ -1,0 +1,45 @@
+.info-holder {
+  min-height: 105vh;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 64px;
+  height: 100%;
+}
+
+.info__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__title {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 48px;
+  text-transform: uppercase;
+}
+
+.info__white {
+  margin-bottom: 8px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.info__orange {
+  margin-bottom: 22px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  line-height: 120%;
+  color: #e75626;
+  text-transform: uppercase;
+}

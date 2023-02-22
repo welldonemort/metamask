@@ -1,0 +1,21 @@
+.button {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  background: #e75626;
+  border-radius: 30px;
+  width: fit-content;
+  padding: 8px 24px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #be3b10;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
