@@ -103,12 +103,12 @@
 .main-left__filter-title {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 120%;
   color: #e75626;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 27.1%;
+  top: 16.3%;
   white-space: nowrap;
 }
 
@@ -130,8 +130,7 @@
 }
 
 .planet {
-  top: 0;
-  right: 0;
+  right: -13%;
   width: 320px;
   height: 322px;
   position: absolute;

@@ -96,7 +96,9 @@ const BottomInfo = ({ data }: BottomInfoProps) => {
           text="Get early access"
           type="submit"
           onClick={addMe}
-          className={isUserAdded || !name || !email ? "disabled" : ""}
+          className={
+            isUserAdded || !name || !email || !account ? "disabled" : ""
+          }
         />
       </form>
 
